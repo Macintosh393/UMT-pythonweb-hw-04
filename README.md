@@ -47,9 +47,8 @@ If the `output_directory` does not exist, the program will create it automatical
 ## How it Works
 
 1. **Scan**: The program scans the source directory recursively.
-2. **Path Resolution**: It calculates the relative path of each file to maintain structure if needed, but primarily extracts the file extension.
-3. **Sort**: It creates a subfolder in the destination named after the file extension (without the dot).
-4. **Copy**: Files are copied asynchronously to their new locations.
+2. **Sort**: It creates a subfolder in the destination named after the file extension (without the dot).
+3. **Copy**: Files are copied asynchronously to their new locations.
 
 ## Logging
 
