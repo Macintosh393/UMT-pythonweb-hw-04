@@ -17,7 +17,6 @@ async def read_folder(src_p: AsyncPath, dst_p: AsyncPath, base_src: AsyncPath):
                     copy_file(
                         path,
                         dst_p
-                        / path.relative_to(base_src).parent
                         / ext_name
                         / path.name,
                     )
