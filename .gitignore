@@ -1,0 +1,11 @@
+*.pyc
+__pycache__/
+
+.venv/
+venv/
+
+.vscode/
+
+.python-version
+
+output/
